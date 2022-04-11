@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FoodData" representedClassName="FoodData" syncable="YES">
+        <attribute name="dateAdded" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" attributeType="String"/>
+        <attribute name="mealType" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <entity name="NutritionData" representedClassName="NutritionData" syncable="YES" codeGenerationType="class">
+        <attribute name="calories" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="carbs" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dateAdded" attributeType="String"/>
+        <attribute name="fat" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="protein" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodData" positionX="-45" positionY="0" width="128" height="104"/>
+        <element name="NutritionData" positionX="-45" positionY="27" width="128" height="104"/>
+    </elements>
+</model>
